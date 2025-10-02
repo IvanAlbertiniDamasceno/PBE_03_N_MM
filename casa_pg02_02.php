@@ -10,9 +10,8 @@
     <?php
     $numero = $_POST ["numero"];
     $result = $numero % 2;
-    $resposta = ($result == 0) ? "Par" : "Ímpar;
-    echo "O número $numero é $resposta";
-
+    $resposta = ($result == 0) ? "Par" : "Ímpar";
+    echo "O seu número é $resposta";
     ?>
 </body>
 </html>
